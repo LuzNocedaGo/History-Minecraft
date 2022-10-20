@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 13px ), repeating-linear-gradient( #68686855, #686868 );
+    font-family: 'Yeseva One', cursive;
+}
+.a{
+    background-color: black;
+    width: 1500px;
+    height: 70px;
+    padding: 10px;
+    font-size: 30px;
+}
+html{
+    overflow-x: hidden;
+}
+a{
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+.img1{
+    max-width: 40%;
+}
+.p1{
+    color: white;
+    font-size: 30px;
+}
+.img1{
+    float: left;
+    margin: 10px;
+}
+.float{
+    margin-top: 50px;
+}
+.btn1{
+    width: 300px;
+    height: 200px;
+    margin: 90px;
+    border-radius: 30px;
+    border: 0px solid white;
+    background: linear-gradient(to left, rgb(63, 63, 251), rgb(251, 255, 0));
+    font-size: 50px;
+    color: white;
+    transition: 0.5s;
+}
+.btn1:hover{
+    border: 5px solid white;
+}
+.btn2{
+    width: 300px;
+    height: 200px;
+    margin: 90px;
+    border-radius: 30px;
+    border: 0px solid white;
+    background: linear-gradient(to left, rgb(251, 63, 63), rgb(255, 0, 200));
+    font-size: 50px;
+    color: white;
+    transition: 0.5s;
+}
+.btn2:hover{
+    border: 5px solid white;
+}
+.btn3{
+    width: 300px;
+    height: 200px;
+    margin: 90px;
+    border-radius: 30px;
+    border: 0px solid white;
+    background: linear-gradient(to left, rgb(0, 235, 90), rgb(162, 0, 255));
+    font-size: 50px;
+    color: white;
+    transition: 0.5s;
+}
+.btn3:hover{
+    border: 5px solid white;
+}
